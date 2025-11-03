@@ -1,0 +1,10 @@
+streamlit
+requests
+pdfplumber
+scikit-learn
+faiss-cpu
+numpy
+joblib
+tiktoken
+python-dotenv
+pandas
