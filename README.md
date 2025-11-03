@@ -47,8 +47,8 @@ Create high‑quality summaries from PDFs or pasted text, optionally translate t
 ## Repository Layout
 
 - `streamlit_app.py` — Page navigation (Summarizer & History)
-- `pages/1_Main.py` — Main summarizer UI and logic
-- `pages/2_History.py` — Full history table view, filtering, and exports
+- `pages/text_app.py` — Main summarizer UI and logic
+- `pages/history.py` — Full history table view, filtering, and exports
 - `faiss_store/` — (auto-created) stores vector DB/index, metadata, and summary texts
 
 ## Why This Stack?
