@@ -53,6 +53,13 @@ Create high‑quality summaries from PDFs or pasted text, optionally translate t
 
 ## Why This Stack?
 
-This project combines smart LLM orchestration, prompt design, and a minimal open-source vector database for speed, robustness, and excellent UX. It avoids all heavy GPU/torch/onnx dependencies, works reliably across platforms, and keeps all summaries easily accessible for future reference or export.
+- **Speed**: Summaries and translations are optimized to minimize waits—fallbacks and model routing avoid downtime.
+- **Simplicity**: Only necessary dependencies; no PyTorch/ONNX or GPU required. Won’t clog your local environment.
+- **Reliability**: Handles API rate limits and traffic spikes transparently; history is always up to date.
+- **Usability**: Professional UI, explicit progress indicators, and an always-available exportable log of work.
+
+## Conclusion & Future Work
+
+This project puts efficient, high-quality text summarization and translation within reach of any user—no GPU or heavyweight setup required. Its combination of streamlined LLM routing and local, open-source vector storage makes it both robust and highly practical for real-world needs.
 
 ---
