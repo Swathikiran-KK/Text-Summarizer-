@@ -58,8 +58,10 @@ Create high‑quality summaries from PDFs or pasted text, optionally translate t
 - **Reliability**: Handles API rate limits and traffic spikes transparently; history is always up to date.
 - **Usability**: Professional UI, explicit progress indicators, and an always-available exportable log of work.
 
-## Conclusion & Future Work
+## Conclusion
 
 This project puts efficient, high-quality text summarization and translation within reach of any user—no GPU or heavyweight setup required. Its combination of streamlined LLM routing and local, open-source vector storage makes it both robust and highly practical for real-world needs.
+
+
 
 ---
